@@ -100,4 +100,26 @@ input[type="submit"],
 			.button {
 				padding: 0;
 				}
-		
+				
+body {
+    font-family: sans-serif;
+    background-color: lightgrey;
+    margin-top: 75px;
+    background-image: url("/ui/fairy.png");
+}
+
+.center {
+    text-align: center;
+}
+
+.text-big {
+    font-size: 300%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-medium {
+    height: 200px;
+}
