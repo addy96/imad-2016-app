@@ -10,8 +10,8 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/go.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'go.html'));
+app.get('/go.html && /Go.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Go.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
