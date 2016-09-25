@@ -19,7 +19,7 @@ var heading = data.headig;
 var date = data.date;
 var content = data.content;
 
-var htmltemplate = `<html>
+var htmlTemplate = `<html>
 <head>
     
     <link href="/ui/new.css" rel="stylesheet" />
