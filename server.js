@@ -7,15 +7,14 @@ app.use(morgan('combined'));
 
 var content = {
     title:'Deathly Hallows | Addy',
-    heading::'deathly hallows',
+    heading:'deathly hallows',
     date:'sep 25,2016',
     content:'<p>AZAKALAM GYRADOS CHARIZARD </p>'
-    
 };
 function createTemplate (data) {
     
 var title = data.title;
-var heading = data.headig;
+var heading = data.heading;
 var date = data.date;
 var content = data.content;
 
