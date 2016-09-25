@@ -9,8 +9,40 @@ var content = {
     title:'Deathly Hallows | Addy',
     heading::'deathly hallows',
     date:'sep 25,2016',
-    content:''
+    content:'<p>AZAKALAM GYRADOS CHARIZARD </p>'
     
+};
+function createTemplate (data) {
+    
+var title = data.title;
+var heading = data.headig;
+var date = data.date;
+var content = data.content;
+
+var htmltemplate = `<html>
+<head>
+    
+    <link href="/ui/new.css" rel="stylesheet" />
+    <title>
+            ${title}
+    </title>
+    <meta name="viewport" content="width=devide-width,initial-scale=1"/>
+    <link href="/ui/new.css" rel="stylesheet" />
+</head>
+<body>
+        <div class="container">
+         <a href="/">Home</a>
+    </div>
+    <hr/>
+    <h3>${heading}</h3>
+    <div>${date}</div>
+    <div>
+    ${content}
+    </div>
+</body>
+</html>
+`;
+return htmlTemplate;
 }
 
 app.get('/', function (req, res) {
@@ -19,7 +51,7 @@ app.get('/', function (req, res) {
 
 
 app.get('/go.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Go.html'));
+  res.send(createTemplate(Go));
 });
 
 app.get('/ui/style.css', function (req, res) {
