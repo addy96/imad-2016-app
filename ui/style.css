@@ -103,7 +103,7 @@ body {
 
 .button5:hover {
    background-image:url('http://www.colorcombos.com/images/colors/000000.png');
-}.button6 {
+}#button6 {
  margin-bottom: 10px;
  width: 160px;
  height:160px;
@@ -111,7 +111,7 @@ body {
  background:transparent url('https://upload.wikimedia.org/wikipedia/en/e/e3/Led_Zeppelin_-_Physical_Graffiti.jpg') center top no-repeat;
 }
 
-.button6:hover {
+#button6:hover {
    background-image:url('http://www.colorcombos.com/images/colors/000000.png');
 }.button7 {
  margin-bottom: 10px;
