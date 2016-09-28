@@ -21,7 +21,7 @@ body {
 .img-medium {
     height: 200px;
 }
-h1 { 
+.h1 { 
     color: #fff;
      font-family: 'Righteous',cursive; 
      font-size: 65px;
@@ -35,7 +35,7 @@ h1 {
 }
 
 
-h2 { font-size: 30px; 
+.h2 { font-size: 30px; 
       letter-spacing: -1px;
       color: #DFBF84;
       text-transform: uppercase;
@@ -46,13 +46,13 @@ h2 { font-size: 30px;
     }
 
 
-p { color: #f6f6f6; font-family: 'Orienta', sans-serif; font-size: 16px; line-height: 24px; margin: 0 0 24px; text-align: center; }
+.p { color: #f6f6f6; font-family: 'Orienta', sans-serif; font-size: 16px; line-height: 24px; margin: 0 0 24px; text-align: center; }
 
 
-a { color: #e8d4a7; text-decoration: none; text-align: right; padding: 15px; font-size: 20px; }
+.a { color: #e8d4a7; text-decoration: none; text-align: right; padding: 15px; font-size: 20px; }
 
 
-a:hover { color: #da9650; text-decoration: blink; }
+.a:hover { color: #da9650; text-decoration: blink; }
 
 .button {
     
