@@ -9,7 +9,7 @@ var content = {
     title:'LedZep | Addy',
     heading:'Stairway to Heaven',
     date:'sep 25,2016',
-    content:'<p> </p>'
+    content:'<p>Dazed And Confused </p>'
 };
 function createTemplate (data) {
     
@@ -33,7 +33,8 @@ var htmlTemplate = `<html>
          <a href="/">Home</a>
     </div>
     <hr/>
-    <h3>${heading}</h3>
+    <h1>About Lez Zepellin</h1>
+    <h2>${heading}</h2>
     <div>${date}</div>
     <div>
     ${content}
