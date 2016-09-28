@@ -37,3 +37,24 @@ a:hover { text-decoration: underline }
 
 
 .read-more:hover { background: #990000; text-decoration: none; }
+.button {
+    
+    padding: 15px 640px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-variant: small-caps;
+    background-color: #665856;
+    color: black;
+    border: 6px solid #FFF;
+    border-radius: 30%;
+    text-decoration:underline dotted red;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #378da3; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
