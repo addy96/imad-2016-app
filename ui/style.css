@@ -51,7 +51,7 @@ body {
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-#button1 {
+/*#button1 {
  margin-bottom: 10px;
  width: 160px;
  height:160px;
@@ -143,4 +143,4 @@ body {
 
 #button9:hover {
    background-image:url('http://www.colorcombos.com/images/colors/000000.png');
-}
+}*\
