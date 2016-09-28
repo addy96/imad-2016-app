@@ -36,8 +36,8 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    background-color: white;
+    background-color: #b7938f;
     color: black;
-    border: 2px solid #4CAF50;
+    border: 2px solid #FFF;
     border-radius: 30%;
 }
