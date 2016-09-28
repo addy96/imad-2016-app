@@ -6,10 +6,10 @@ var app = express();
 app.use(morgan('combined'));
 
 var content = {
-    title:'Deathly Hallows | Addy',
-    heading:'deathly hallows',
+    title:'LedZep | Addy',
+    heading:'Stairway to Heaven',
     date:'sep 25,2016',
-    content:'<p>AZAKALAM GYRADOS CHARIZARD </p>'
+    content:'<p> </p>'
 };
 function createTemplate (data) {
     
