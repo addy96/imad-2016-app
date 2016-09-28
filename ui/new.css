@@ -34,7 +34,7 @@ body {
     border: 6px solid #FFF;
     border-radius: 30%;
 
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.8s; /* Safari */
     transition-duration: 0.4s;
 }
 
