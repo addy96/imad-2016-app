@@ -61,7 +61,9 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/new.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'new.css'));
 });
-
+app.get('/ui/second.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'second.css'));
+});
 app.get('/ui/harry.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'harry.png'));
 });
