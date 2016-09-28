@@ -49,12 +49,12 @@ return htmlTemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
-
 app.get('/go.html', function (req, res) {
   res.send(createTemplate(Go));
 });
-
+app.get('/ui/led1.html',function(req,res){
+    res.sendFile(path.join(__dirname, 'ui, 'led1.html'));
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
