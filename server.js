@@ -5,12 +5,55 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var content = {
-    title:'LedZep | Addy',
+var ledzep = {
+  led1 : {    title:'LedZep | Addy',
     heading:'Stairway to Heaven',
     date:'sep 25,2016',
     content:'<p>Dazed And Confused </p>'
+},
+  led2 :{ title:'LedZep | Addy',
+    heading:'Stairway to Heaven',
+    date:'sep 25,2016',
+    content:'<p>Dazed And Confused </p>'
+ },    
+  led3  : { title:'LedZep | Addy',
+    heading:'Stairway to Heaven',
+    date:'sep 25,2016',
+    content:'<p>Dazed And Confused </p>'
+  },
+  led4 :{ title:'LedZep | Addy',
+    heading:'Stairway to Heaven',
+    date:'sep 25,2016',
+    content:'<p>Dazed And Confused </p>'
+  },
+  led5  : { title:'LedZep | Addy',
+    heading:'Stairway to Heaven',
+    date:'sep 25,2016',
+    content:'<p>Dazed And Confused </p>'
+  },
+  led6  : { title:'LedZep | Addy',
+    heading:'Stairway to Heaven',
+    date:'sep 25,2016',
+    content:'<p>Dazed And Confused </p>'
+  },
+  led7  : { title:'LedZep | Addy',
+    heading:'Stairway to Heaven',
+    date:'sep 25,2016',
+    content:'<p>Dazed And Confused </p>'
+  },
+  led8  :{  title:'LedZep | Addy',
+    heading:'Stairway to Heaven',
+    date:'sep 25,2016',
+    content:'<p>Dazed And Confused </p>}'
+},
+  led9  : { title:'LedZep | Addy',
+    heading:'Stairway to Heaven',
+    date:'sep 25,2016',
+    content:'<p>Dazed And Confused </p>}'
+
+      };
 };
+
 function createTemplate (data) {
     
 var title = data.title;
