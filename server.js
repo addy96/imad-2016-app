@@ -91,8 +91,10 @@ return htmlTemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/go.html', function (req, res) {res.send(createTemplate(Go));
+app.get('/Go.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'Go.html'));
 });
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
