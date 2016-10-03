@@ -45,13 +45,12 @@ var ledzep = {
     heading:'Stairway to Heaven',
     date:'sep 25,2016',
     content:'<p>Dazed And Confused </p>}'
-},
+   },
   led9  : { title:'LedZep | Addy',
     heading:'Stairway to Heaven',
     date:'sep 25,2016',
-    content:'<p>Dazed And Confused </p>}'
-
-      };
+    content:'<p>Dazed And Confused </p>'
+ }
 };
 
 function createTemplate (data) {
