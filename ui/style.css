@@ -171,6 +171,11 @@ body {
     line-height: 50px;
     text-decoration: none;
 }
+.tile_div a:hover{ background-color: #378da3; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
 
 .title_div .last {
     margin-right: 15;
