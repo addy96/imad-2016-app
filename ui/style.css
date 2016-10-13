@@ -160,3 +160,22 @@ body {
 .button9:hover {
    background-image:url('http://www.colorcombos.com/images/colors/000000.png');
 }
+.tile_div a {
+    display: block;
+    float: left;
+    height: 50px;
+    width: 100px;
+    margin-right: 5px;
+    background-image: url(./images/button_left.png);
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.title_div .last {
+    margin-right: 0;
+}
+
+.clear {
+    clear: both;
+}
