@@ -9,45 +9,29 @@ var ledzep = {
   led1 : {    title:'  About Led Zeppelin I',
     heading:'First Album',
     date:'1969',
-    content:`
-    
-    <p>  Jimmy Page tells Neil McCormick heâs keen to do justice to the archive â with or without Robert Plant
-
-
-                 I really donât listen to Led Zeppelin that much,â says Jimmy Page, with a twinkle. Iâm not entirely sure I believe him. The rock bandâs image may have been battered in recent years by the strife of plagiarism lawsuits and public bickering between members, but the astonishing brilliance of their original music will always be there â a legacy closely guarded by Page himself. The 72-year-old guitar hero has just overseen the restoration of The Complete BBC Sessions, 33 tracks recorded between 1969 and 1971. The question vexing Page is how he feels listening to his own band from half a century ago. He chews it over for a bit. âI admire their bravado,â he concludes.
-
- 
-Looking tanned, long white hair tied back from a wrinkled but lively face, Page has recently returned from Los Angeles, where he appeared in court alongside Zeppelin vocalist Robert Plant. They were defending Stairway to Heaven against accusations of plagiarism brought by the estate of late American guitarist Randy California. On June 23, a jury found that Zeppelin did not copy opening chords from Taurus, a 1967 track by Californiaâs band Spirit. Page canât comment, because an appeal has been launched.
-
-                                                              Jimmy Page
-When pressed, he offers some wider thoughts on the ownership of music. ��How would you define Bossa Nova? It was a whole jazz genre and it all starts with the Bossa Nova beat.â Page demonstrates the rhythm on his knee. âThatâs every Bossa Nova record. How far would the Bossa Nova movement have got in a corporate world today? Itâs really disturbing. I do know thereâs a lot of music where Led Zeppelin has been leant on. We didnât do anything about it. And I wouldnât want to, either.â
-
-While Page is proud of Zeppelin, it is not hard to detect a frost in how he refers to other members. âI hadnât seen Robert for a long time. It was nice to say hello,â is the most he will say about his reunion with Plant in court. Page is on record about his frustrations at Plantâs reluctance to continue Zeppelin following a one-off charity reunion in 2007. âRobert would rather play Led Zeppelin with his own band, not with his old band members,â he grumbled in an interview with me in 2014.
-
-The pair last recorded and performed together as Page & Plant for Walking Into Clarksdale in 1998. Since then, Plant has released five original albums and toured constantly. Page has released none and rarely been seen on stage. His focus, Page insists, has been on re-releasing the Zeppelin archive (of which these sessions are the very last). âLed Zeppelin isnât done yet, quite clearly, because every year since 1968 thereâs been new fans. The re-releases have more than doubled the amount of Led Zeppelin work out there. I wanted it done authoritatively, âcause I was the one writing the stuff, I was the producer and mixer. I donât think itâs any more weird than writing your autobiography.â
-
-The BBC Sessions are a reminder of what a fearless and innovative group Zeppelin were. âIt was done with so much freedom and conviction by master musicians, thatâs why it has travelled over time,â says Page. âIt was an extraordinary connection, the synergy within the band. There was an area of ESP between Robert Plant, John Paul Jones, John Bonham and myself.â
-
-Expanded and remastered from the original 1997 release, The Complete BBC Sessions contains eight previously unreleased recordings, including the near mythical Sunshine Woman, which the band concocted on the spot, with multi-instrumentalist Jones hammering out honky-tonky piano.
-
-âIt seemed like fun, making numbers up in the studio,â recalls Page. âThe thing thatâs really apparent is the confidence and attitude. We improvised constantly, the whole thing was moving and transmuting right there, in the moment.â
-
-These recordings showcase the rockers in full, fierce flow. âFor us, every concert, every night, we were trying to break out,â says Page. âIf a song was in the set, it was really going to go through it. It was no longer safe, it was going to be pummelled and changed and new insights put into it.â
-
-For someone of his world beating talent, it has been a very long time since Page has done anything new. His only major live concert appearance this century was the Zeppelin reunion at the 02 Arena. Page can get touchy when pressed on this subject.
-
-âIâm involved in all things musical, itâs all consuming, even if it doesnât necessarily manifest as a record or a concert.â  Perhaps, given his incredible legacy, we should just accept that we have heard the last from Page, although he is insistent it is not the case.
-
-âI set out an agenda for myself before I started to get into the re-releases. I thought I would be playing by now, but certain things got delayed, other things came in the way. So Iâm a little bit behind.â
-
-He insists he still plays behind closed doors. âIf I pick up a guitar, I donât practise scales. I never have. I come up with something I havenât done before, new approaches to chord sequences, riffs, rhythms, so it becomes composition. Itâs not like the music Iâm doing is just a single thread.
-
-Itâs multi-threaded. And the different styles of guitar I can play are multi-faceted.â Then he adds, slightly peevishly, âMaybe I should do scales. Maybe Iâll do some now.â  
-
-Although he remains elusive on the subject, admirers will be pleased that Page genuinely does seem to have something in the pipeline. He vaguely mentions ânew musicâ and his intention to be playing in public again âduring the course of next year.â
-
-He remains tight lipped about what that might be, but at least heâs smiling. âIâm looking forward to putting a project together. I want to surprise people. But whatever I do, I am going to do at my own pace, not at anybody else's.â </p>`
-},
+    content:`<p>You can hardly tell now, but at the time of Led Zeppelin’s debut album, released on January 12, 1969, nobody expected this. This was a group of misfits and underdogged musicians who jobbed around the UK separately before getting together. They broke through the walls of critics and went straight for the audience – and won. Their incorporation of blues, garage rock, soul, shuffle, psychedelic classical, rock, and playing guitars with a violin bow, fer chrissakes, they were over-the-top and minimalist, sometimes in the same song. With songs about hobbits, mythology and sex in equal form, Led Zeppelin made it all look so easy. Until you tried to play one of their songs. Here’s where it all started, with 20 fun facts about not just one of the greatest debut records in music, but one of the best, period.
+1. The critics hated this record, but they finally came around. In 2003, the album was ranked #29 on Rolling Stone magazine’s list of the 500 greatest albums of all time, and in 2004, the album was inducted into the Grammy Hall of Fame.
+2. Led Zeppelin came together in a strange way. In August 1968, The Yardbirds had completely disbanded, but guitarist Jimmy Page, band’s sole remaining member, was left with rights to the group’s name and contractual obligations for a series of concerts in Scandinavia. For his new band, Jimmy asked singer Terry Reid to join the band, but when he said no, Jimmy recruited bassist John Paul Jones, vocalist Robert Plant and drummer John Bonham who were all pretty much untried at the time.
+3. During September 1968, The New Yardbirds (yes, that was their name, rather than the new version of The Yardbirds…you know what I mean) toured Scandinavia as The New Yardbirds, performing some old Yardbirds material as well as new songs such as “Communication Breakdown”, “I Can’t Quit You Baby”, “You Shook Me”, “Babe I’m Gonna Leave You”, and “How Many More Times.” There were also plenty of riffs left over from the band Jimmy would use for their debut.
+4. The month after they returned to England, October 1968, Page changed the band’s name to Led Zeppelin, and the group entered London’s Olympic Studios to record their debut album, with the 5 songs above road-tested and ready to be recorded.
+5. Jimmy said that the album took only about 36 hours of studio time (over a span of a few weeks) to create (including mixing) the entire record. How did he know this? He was the one who paid the studio bill. Because the band didn’t have a record label at that time, there was nobody watching the clock, asking “Where’s the single?” and generally nitpicking over the release. It was the band alone making all the decisions.
+6. That studio bill? £1,782, or roughly $3,500 US. The album went on to gross more than $7 million, about 2,000 times more than they invested.
+7. Up until the late 1960s, most music producers placed microphones directly in front of the amplifiers and drums. For Led Zeppelin, Jimmy developed the idea of placing an additional microphone some distance from the amplifier (as far as twenty feet) and then recording the balance between the two. By adopting this “distance equals depth” technique, Page became one of the first producers to record a band’s “ambient sound”: the distance of a note’s time-lag from one end of the room to the other.
+8. Led Zeppelin I was one of the first albums to be released in stereo-only form; at the time, the practice of releasing both mono and stereo versions was the norm.
+9. Led Zeppelin’s front cover, which was chosen by Jimmy, features a black-and-white image of the burning Hindenburg airship. The image refers to the origin of the band’s name itself: when Jimmy, Jeff Beck and The Who’s Keith Moon and John Entwistle were discussing the idea of forming a group, Keith joked, “It would probably go over like a lead balloon”, and Entwistle allegedly replied, “…a lead zeppelin!” And that’s how the name stuck, too.
+10. The album’s back cover features a photograph of the band taken by former-Yardbird Chris Dreja. Chris would go on to play in the Yardbirds spin-off band Box of Frogs in the 1980s, and has been part of the Yardbirds’ reformation since 1992.
+11. Many of Led Zeppelin’s earliest songs were based on blues standards, and the album also included three songs composed by others: “You Shook Me” and “I Can’t Quit You Baby”, both by blues artist Willie Dixon, and “Babe I’m Gonna Leave You”. Jimmy thought the latter song was a traditional folk tune in the public domain, but he gave credit on subsequent re-release after it was revealed that the song was composed by Anne Bredon in the 1950s.
+12. Lead singer Robert Plant was involved with some of the actual songwriting but wasn’t given credit because, the rumour goes, of unexpired contractual obligations resulting from his association with CBS Records. A few Zep books have disputed this, though.
+13. For the opener, “Good Times Bad Times”, Jimmy’s passed his Fender Telecaster guitar through a Leslie speaker to create a swirling effect during the guitar solo.
+14. Jimmy played “Babe I’m Gonna Leave You” to Robert at their first meeting together, at Jimmy’s riverside home at Pangbourne in late July 1968. Robert still sings the song with his various bands since Zeppelin broke up.
+15. When the band played “Dazed And Confused” live, you never knew how long it would last. Some versions began at 6 minutes, but on their 1975 tour, they lasted up to 45 minutes long. The original writer Jake Holmes also composed the US Army recruitment jingle “Be All That You Can Be” in the late 1970s. He also co-wrote the famous “Be a Pepper” for Dr Pepper.
+16. “Your Time Is Gonna Come” kicks off side 2, and contains a bit of trickery from Jimmy. He played an out-of-tune Fender 10-string steel guitar, and meant it, maaan.
+17, “Communication Breakdown” is one of the few songs on which Jimmy sang a backing vocal, and it’s the only song to be played during every year that the band toured. It usually either opened shows or was played as an encore.
+18. “I Can’t Quit You Baby” contains a break during the guitar solo where Jimmy plays a four-bar unaccompanied set-up before relaunching into the solo. Although missing the turnaround coming out of the solo, he tears right back into the song. When he’s asked about this, Jimmy is pretty coy about a mistake being made and kept on the record.
+19. Though listed at a time of 3:30 on the album sleeve, “How Many More Times” length of the track is actually 8:28. The incorrect listing was deliberate as it was intended to help promote radio play, as the group knew no radio stations would even think of playing a track that long.
+20. Within 2 months of its release the album had reached Billboard Top 10. It stayed on the Billboard chart for 73 weeks and held a 79-week run on the British charts.
+</p>`
+ },
   led2 :{ title:'About Lez Zeppelin II',
     heading:'Second Album',
     date:'1969',
