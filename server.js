@@ -85,7 +85,7 @@ var content = data.content;
 var htmlTemplate = `<html>
 <head>
     
-    <link href="/ui/new.css" rel="stylesheet" />
+    <link href="/ui/second.css" rel="stylesheet" />
     <title>
             ${title}
     </title>
