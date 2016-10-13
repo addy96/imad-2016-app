@@ -184,6 +184,7 @@ body {
     -webkit-transition-duration: 0.8s;
     transition-duration: 0.4s;
     margin-right:71.11px;
+    margin-top:20px;
 }
 .tile_div a:hover{  background-color: #378da3; 
     color: white;
