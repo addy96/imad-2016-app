@@ -90,7 +90,7 @@ var htmlTemplate = `<html>
             ${title}
     </title>
     <meta name="viewport" content="width=devide-width,initial-scale=1"/>
-    <link href="/ui/new.css" rel="stylesheet" />
+    <link href="/ui/second.css" rel="stylesheet" />
 </head>
 <body>
         <div class="container">
