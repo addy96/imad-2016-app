@@ -161,6 +161,7 @@ body {
    background-image:url('http://www.colorcombos.com/images/colors/000000.png');
 }
 .tile_div a {
+    /*
     display: block;
     float: left;
     height: 50px;
@@ -169,12 +170,23 @@ body {
    
     text-align: center;
     line-height: 50px;
-    text-decoration: none;
+    text-decoration: none;*/
+ padding: 15px 640px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    font-variant: small-caps;
+    background-color: #665856;
+    color: #FFF;
+    border: 6px solid #FFF;
+    border-radius: 30%;
+    text-decoration:underline dotted red;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.4s;
 }
-.tile_div a:hover{ background-color: lightgrey; 
+.tile_div a:hover{  background-color: #378da3; 
     color: white;
-    box-shadow: 50 50px 100px 0 rgba(0,0,0,0.24), 50 50px 100px 0 rgba(0,0,0,0.19);
-    
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .title_div .last {
