@@ -183,6 +183,7 @@ body {
     text-decoration:underline dotted red;
     -webkit-transition-duration: 0.8s;
     transition-duration: 0.4s;
+    margin-right:71.11;
 }
 .tile_div a:hover{  background-color: #378da3; 
     color: white;
