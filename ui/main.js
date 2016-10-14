@@ -1,2 +1,2 @@
 console.log('Loaded!');
-alert('click okay to proceed');
+alert('welcome to Led zeppelin world, click OK');
