@@ -208,20 +208,4 @@ body {
 .shift { margin: 0 550px 0;
 }
     
-div {
-    width: 100px;
-    height: 100px;
-    background: red;
-    position :relative;
-    -webkit-animation: mymove 1s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 1s infinite;
-}
 
-
-/* Standard syntax */
-@keyframes mymove {
-       from   {    transform: rotateY(0deg);}
-to { transform: rotateY(360deg);
-
-}
-}
