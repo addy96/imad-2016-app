@@ -131,6 +131,9 @@ app.get('/ui/main.js', function (req, res) {
 app.get('http://cufon.shoqolate.com/js/cufon-yui.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'js', 'cufon-yui.js'));
 });
+app.get('http://cufon.shoqolate.com/js/led-zeppelin-ii.cufonfonts.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'led-zeppelin-ii.cufonfonts.js'));
+});
 app.get('/ui/Physical Graffiti.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Physical Graffiti.jpg'));
 });
