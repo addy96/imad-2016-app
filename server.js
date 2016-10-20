@@ -128,11 +128,6 @@ app.get('/ui/second.css', function (req, res) {
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
-
-
-app.get('/ui/Go.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Go.html'));
-});
 app.get('/ui/:ledName', function (req, res) {
     var ledName = req.params.ledName;
   res.send(createTemplate(ledzep[ledName]));
