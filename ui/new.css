@@ -101,14 +101,14 @@ li {
 
 li a, .dropbtn {
     display: inline-block;
-    color: #581845;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #581845;
 }
 
 li.dropdown {
