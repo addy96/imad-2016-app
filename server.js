@@ -140,7 +140,7 @@ app.get('/ui/:ledName', function (req, res) {
 });
 app.get('/submit-name/:name', function (req, res) {
     var name=req.params.name;
-    names.push(name);
+    name.push(name);
   res.send(JSON.stringify(name));
 });
 
