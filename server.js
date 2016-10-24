@@ -112,6 +112,12 @@ return htmlTemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+counter=0;
+app.get('/counter',function(req,res){
+    counter++;
+    res.send(counter.toString());
+});
+
 
 var names=[];
 app.get('/submit-name', function (req, res) {
@@ -120,23 +126,27 @@ app.get('/submit-name', function (req, res) {
   res.send(JSON.stringify(names));
 });
 
+app.get('/ui/:ledName', function (req, res) {
+    var ledName = req.params.ledName;
+  res.send(createTemplate(ledzep[ledName]));
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
+
 app.get('/ui/new.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'new.css'));
 });
+
 app.get('/ui/second.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'second.css'));
 });
+
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
-counter=0;
-app.get('/counter',function(req,res){
-    counter++;
-    res.send(counter.toString());
-});
+
 
 app.get('/ui/Go.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Go.html'));
@@ -144,10 +154,7 @@ app.get('/ui/Go.html', function (req, res) {
 
 
 
-app.get('/ui/:ledName', function (req, res) {
-    var ledName = req.params.ledName;
-  res.send(createTemplate(ledzep[ledName]));
-});
+
 
 
 
