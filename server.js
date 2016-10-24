@@ -134,16 +134,17 @@ app.get('/counter',function(req,res){
 app.get('/ui/Go.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Go.html'));
 });
-app.get('/ui/:ledName', function (req, res) {
-    var ledName = req.params.ledName;
-  res.send(createTemplate(ledzep[ledName]));
-});
 var names=[];
 app.get('/submit-name', function (req, res) {
     var name=req.query.name;
     names.push(name);
   res.send(JSON.stringify(names));
 });
+app.get('/ui/:ledName', function (req, res) {
+    var ledName = req.params.ledName;
+  res.send(createTemplate(ledzep[ledName]));
+});
+
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
