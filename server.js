@@ -132,6 +132,9 @@ app.get('/submit-name', function (req, res) {
     names.push(name);
   res.send(JSON.stringify(names));
 });
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
 
 app.get('/ui/:ledName', function (req, res) {
     var ledName = req.params.ledName;
@@ -147,9 +150,7 @@ app.get('/ui/second.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'second.css'));
 });
 
-app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
-});
+
 
 
 
