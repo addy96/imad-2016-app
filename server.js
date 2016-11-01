@@ -119,7 +119,7 @@ app.get('/ui/style.css', function (req, res) {
 
 counter=0;
 app.get('/counter',function(req,res){
-    counter+=counter;
+    counter = counter + 1;
     res.send(counter.toString());
 });
 
