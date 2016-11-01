@@ -118,7 +118,9 @@ app.get('/ui/Go.html', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-
+app.get('/ui/second.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'second.css'));
+});
 
   var counter=0;
 app.get('/counter',function(req,res){
@@ -148,9 +150,7 @@ app.get('/ui/new.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'new.css'));
 });
 
-app.get('/ui/second.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'second.css'));
-});
+
 
 
 
