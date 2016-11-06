@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var ledzep = {
+/*var ledzep = {
   led1 : {    title:'  About Led Zeppelin I',
     heading:'First Album',
     date:'1969',
@@ -154,7 +154,7 @@ app.get('/ui/new.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'new.css'));
 });
 
-
+*/
 
 
 
