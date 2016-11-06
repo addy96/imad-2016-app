@@ -119,36 +119,55 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-app.get('/Go.html', function (req, res) {
-  res.sendFile(path.join(__dirname, '', '.html'));
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/about.html'));
 });
-app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, '/', 'main.js'));
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/post.html'));
+});
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/contact.html'));
+});
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/gulpfile.js'));
 });
 
 
-  var counter=0;
+ /* var counter=0;
 app.get('/counter',function(req,res){
     counter = counter + 1;
     res.send(counter.toString());
-}); 
+}); */ 
 
 
 
-app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, '', 'style.css'));
+app.get('/css/clean-blog.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'css', 'clean-blog.css'));
 });
-app.get('/ui/second.css', function (req, res) {
-  res.sendFile(path.join(__dirname, '', 'second.css'));
+app.get('/css/clean-blog.min.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'css', 'clean-blog.min.css'));
+});
+app.get('/js/clean-blog.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'clean-blog.js'));
+});
+app.get('/js/clean-blog.min.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'clean-blog.min.js'));
+});
+app.get('/js/contact.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'contact.js'));
+});
+app.get('/js/jqBootstrapValidation.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'jqBootstrapValidation.js'));
+  
 });
 
-
-
+/*
 app.get('/ui/:ledName', function (req, res) {
     var ledName = req.params.ledName;
   res.send(createTemplate(ledzep[ledName]));
 });
-
+*/
 
 app.get('/ui/new.css', function (req, res) {
   res.sendFile(path.join(__dirname, '', 'new.css'));
