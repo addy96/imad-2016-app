@@ -114,16 +114,16 @@ app.get('/submit-name', function (req, res) {
     names.push(name);
   res.send(JSON.stringify(names));
 });
-
-app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+*/
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-app.get('/ui/Go.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Go.html'));
+app.get('/Go.html', function (req, res) {
+  res.sendFile(path.join(__dirname, '', '.html'));
 });
 app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+  res.sendFile(path.join(__dirname, '/', 'main.js'));
 });
 
 
@@ -136,10 +136,10 @@ app.get('/counter',function(req,res){
 
 
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  res.sendFile(path.join(__dirname, '', 'style.css'));
 });
 app.get('/ui/second.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'second.css'));
+  res.sendFile(path.join(__dirname, '', 'second.css'));
 });
 
 
@@ -151,10 +151,10 @@ app.get('/ui/:ledName', function (req, res) {
 
 
 app.get('/ui/new.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'new.css'));
+  res.sendFile(path.join(__dirname, '', 'new.css'));
 });
 
-*/
+
 
 
 
