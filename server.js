@@ -119,8 +119,8 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/about.html'));
+app.get('/js/about.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'js', 'about.html'));
 });
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/post.html'));
