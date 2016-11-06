@@ -161,17 +161,42 @@ app.get('/js/jqBootstrapValidation.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'js', 'jqBootstrapValidation.js'));
   
 });
+var lessMiddleware = require('less-middleware');
+app.configure(function(){
+  //other configuration here...
+  app.use(lessMiddleware({
+    src      : __dirname + "/less/clean-blog.less",
+    compress : true
+  }));
+  app.use(express.static(__dirname + '/less/clean-blog.less'));
+});
+app.configure(function(){
+  //other configuration here...
+  app.use(lessMiddleware({
+    src      : __dirname + "/less/mixins.less",
+    compress : true
+  }));
+  app.use(express.static(__dirname + '/less/mixins.less'));
+});
+app.configure(function(){
+  //other configuration here...
+  app.use(lessMiddleware({
+    src      : __dirname + "/less/variables.less",
+    compress : true
+  }));
+  app.use(express.static(__dirname + '/less/variables.less'));
+});
 
 /*
 app.get('/ui/:ledName', function (req, res) {
     var ledName = req.params.ledName;
   res.send(createTemplate(ledzep[ledName]));
 });
-*/
+
 
 app.get('/ui/new.css', function (req, res) {
   res.sendFile(path.join(__dirname, '', 'new.css'));
-});
+});*/
 
 
 
