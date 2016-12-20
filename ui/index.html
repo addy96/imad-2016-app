@@ -1,0 +1,234 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>IMAD Blog WebApp</title>
+            <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/clean-blog.min.css" rel="stylesheet">
+            <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+            <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+            <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+            <link href="../css/modal.css" rel="stylesheet">
+        </head>
+        <body>
+            <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>    <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="/">Aditya</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="/about">About</a>
+                            </li>
+                            <li>
+                                <a href="/contact">Contact</a>
+                            </li>
+                            <li>
+                                <a id="loginnavbar" data-toggle="modal" data-target="#login-modal" href="#">Login/Register</a>
+                            </li>
+                            <li>
+                                <a id="logoutnavbar" onclick="logout()" href="">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <div class="site-heading">
+                                <h1>Blog</h1>
+                                <hr class="small">
+                                <span class="subheading">All Posts</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+            
+
+                 <div class="post-preview">
+                            <a href="posts/4">
+                                <h2 class="post-title">
+                                    Led Zeppelin's Interesting Fact
+                                </h2>
+                                <h3 class="post-subtitle">
+                                    Band History
+                                </h3>
+                            </a>
+                            <p class="post-meta">Posted by <a href="#">Aditya Bisht</a> on  Nov 20 2016</p>
+                        </div>
+                        <hr>
+                
+
+                 <div class="post-preview">
+                            <a href="posts/3">
+                                <h2 class="post-title">
+                                    Report a bug
+                                </h2>
+                                <h3 class="post-subtitle">
+                                    This site is under development!
+                                </h3>
+                            </a>
+                            <p class="post-meta">Posted by <a href="#">Aditya Bisht</a> on  Nov 22 2016</p>
+                        </div>
+                        <hr>
+                
+
+                 <div class="post-preview">
+                            <a href="posts/2">
+                                <h2 class="post-title">
+                                    Led Zeppelin Experience
+                                </h2>
+                                <h3 class="post-subtitle">
+                                    
+                                </h3>
+                            </a>
+                            <p class="post-meta">Posted by <a href="#">Aditya Bisht</a> on  Nov 09 2016</p>
+                        </div>
+                        <hr>
+                
+
+                 <div class="post-preview">
+                            <a href="posts/1">
+                                <h2 class="post-title">
+                                    Resume
+                                </h2>
+                                <h3 class="post-subtitle">
+                                    
+                                </h3>
+                            </a>
+                            <p class="post-meta">Posted by <a href="#">Aditya Bisht</a> on  Nov 9 2016</p>
+                        </div>
+                        <hr>
+                
+
+                 <div class="post-preview">
+                            <a href="posts/0">
+                                <h2 class="post-title">
+                                    Link to my Actual Blog 
+                                </h2>
+                                <h3 class="post-subtitle">
+                                    ...and website.
+                                </h3>
+                            </a>
+                            <p class="post-meta">Posted by <a href="#">Aditya Bisht</a> on Mon Nov 07 2016</p>
+                        </div>
+                        <hr>
+                
+            </div>
+                </div>
+            </div>
+
+            <!-- Ask to login/register -->
+                <!-- Modal -->
+                <div id="login-modal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                             <div class="row">
+                                 <div class="">
+                                        <div class="form-body">
+                                            <ul class="nav nav-tabs final-login">
+                                                <li class="active"><a class="btn btn-sm" data-toggle="tab" href="#sectionA">Existing User</a></li>
+                                                <li><a class="btn btn-sm" data-toggle="tab" href="#sectionB">New User</a></li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div id="sectionA" class="tab-pane fade in active">
+                                                    <div class="innter-form">
+                                                        <form class="sa-innate-form" method="post">
+                                                            <label>Username</label>
+                                                            <input type="text" id="username">
+                                                            <label>Password</label>
+                                                            <input type="password" id="password">
+                                                            <button type="button" class="btn btn-info btn-sm" id="login_btn">Sign In</button>
+                                                        </form>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                                <div id="sectionB" class="tab-pane fade">
+                                                    <div class="innter-form">
+                                                        <form class="sa-innate-form" method="post">
+                                                            <label>New Username</label>
+                                                            <input type="text" id="new_username">
+                                                            <label>New Password</label>
+                                                            <input type="password" id="new_password">
+                                                            <button type="button" class="btn btn-info btn-sm" id="register_btn">Register</button>
+                                                        </form>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                            <ul class="list-inline text-center">
+                                <li>
+                                    <a href="https://twitter.com/Addybisht">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/aditya.bisht1">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/addy96">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="copyright text-muted">This website has been visited <b><span id="counter"></span></b> times.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+            <script src="js/clean-blog.min.js"></script>
+            <script src="../main.js"></script>
+            <script src="../article.js"></script>
+        </body>
+        </html>
