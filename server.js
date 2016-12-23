@@ -74,7 +74,7 @@ app.get('/article.js', function (req, res) {
 });
 
 app.get('/favicon.ico', function (req, res){
-    res.sendFile(path.join(__dirname, 'ui/img', 'favicon.ico'))
+    res.sendFile(path.join(__dirname, 'ui/img', 'favicon.ico'));
 });
 
 app.get('/counter', function(req, res){
