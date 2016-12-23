@@ -17,8 +17,8 @@ app.use(session({
 /* DB init stuff */
 var Pool = require('pg').Pool;
 var config = {
-  user: process.env.IMADUSER || 'addy96',
-  database: process.env.IMADDB || 'addy96',
+  user: process.env.IMADUSER || 'flamefractal',
+  database: process.env.IMADDB || 'flamefractal',
   password: process.env.IMADPASSWORD || process.env.DB_PASSWORD,
   host: process.env.IMADHOST || 'db.imad.hasura-app.io',
   port: '5432',
@@ -74,7 +74,7 @@ app.get('/article.js', function (req, res) {
 });
 
 app.get('/favicon.ico', function (req, res){
-    res.sendFile(path.join(__dirname, 'ui/img', 'favicon.ico'));
+    res.sendFile(path.join(__dirname, 'ui/img', 'favicon.ico'))
 });
 
 app.get('/counter', function(req, res){
@@ -160,7 +160,7 @@ app.get('/user/:username', function(req, res){
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>Addy's App</title>
+            <title>IMAD Blog WebApp</title>
             <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
             <link href="css/clean-blog.min.css" rel="stylesheet">
             <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -168,6 +168,15 @@ app.get('/user/:username', function(req, res){
             <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
             <link href="../css/modal.css" rel="stylesheet">
             <link href="../css/post-comment.css" rel="stylesheet">
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-89136252-3', 'auto');
+              ga('send', 'pageview');
+            </script>
         </head>
         <body>
     `;
@@ -366,6 +375,15 @@ function homeTemplate(){
             <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
             <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
             <link href="../css/modal.css" rel="stylesheet">
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-89136252-3', 'auto');
+              ga('send', 'pageview');
+            </script>
         </head>
         <body>
             <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -374,7 +392,7 @@ function homeTemplate(){
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span>    <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="/">Aditya</a>
+                        <a class="navbar-brand" href="/">Vishal</a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
@@ -506,7 +524,7 @@ function homeTemplate(){
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                             <ul class="list-inline text-center">
                                 <li>
-                                    <a href="https://twitter.com/Addybisht">
+                                    <a href="https://twitter.com/vishal_gauba">
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -514,7 +532,7 @@ function homeTemplate(){
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.facebook.com/aditya.bisht1">
+                                    <a href="https://www.facebook.com/vishal.gauba">
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -522,7 +540,7 @@ function homeTemplate(){
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/addy96">
+                                    <a href="https://github.com/flamefractal">
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -530,7 +548,7 @@ function homeTemplate(){
                                     </a>
                                 </li>
                             </ul>
-                            <p class="copyright text-muted">This website has been visited <b><span id="counter"></span></b> times.</p>
+                            <p class="copyright text-muted">This website has been visited <b><span id="counter"></span></b> times since inception.</p>
                         </div>
                     </div>
                 </div>
@@ -569,6 +587,15 @@ function postTemplate(data){
             <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
             <link href="../css/post-comment.css" rel="stylesheet">
             <link href="../css/modal.css" rel="stylesheet">
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-89136252-3', 'auto');
+              ga('send', 'pageview');
+            </script>
         </head>
         <body>
             <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -578,7 +605,7 @@ function postTemplate(data){
                             <span class="sr-only">Toggle navigation</span>
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="/">Aditya</a>
+                        <a class="navbar-brand" href="/">Vishal</a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
@@ -752,7 +779,7 @@ function postTemplate(data){
                                     <div class="col-xs-8 meta">
                                         <form>
                                              <div class="form-group"> 
-                                               <textarea class="form-control" rows="5" id="commentContent" placeholder="Your comment here"></textarea>
+                                               <textarea class="form-control" rows="5" id="commentContent" placeholder="Your comment here. Press Enter to submit!"></textarea>
                                              </div>
                                              <button type="button" id="submitComment" class="btn btn-default">Submit</button>
                                              <button type="button" id="logout_btn" class="btn btn-default">LogOut</button>
@@ -825,7 +852,7 @@ function postTemplate(data){
                             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                                 <ul class="list-inline text-center">
                                     <li>
-                                        <a href="https://twitter.com/Addybisht">
+                                        <a href="https://twitter.com/vishal_gauba">
                                             <span class="fa-stack fa-lg">
                                                 <i class="fa fa-circle fa-stack-2x"></i>
                                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -833,7 +860,7 @@ function postTemplate(data){
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/aditya.bisht1">
+                                        <a href="https://www.facebook.com/vishal.gauba">
                                             <span class="fa-stack fa-lg">
                                                 <i class="fa fa-circle fa-stack-2x"></i>
                                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -841,7 +868,7 @@ function postTemplate(data){
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://github.com/addy96">
+                                        <a href="https://github.com/flamefractal">
                                             <span class="fa-stack fa-lg">
                                                 <i class="fa fa-circle fa-stack-2x"></i>
                                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
