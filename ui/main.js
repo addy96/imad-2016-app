@@ -80,7 +80,7 @@ if (login_btn) {
 		req.send(JSON.stringify({username: username, password: password}));
 		document.getElementById('login_btn').innerHTML="Logging In...";
 		}
-	}
+	};
 }
 
 
@@ -126,7 +126,7 @@ if (register_btn) {
 		document.getElementById('register_btn').innerHTML="Creating user...";
 	}
 		
-	}
+	};
 }
 
 
